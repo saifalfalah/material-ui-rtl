@@ -13,7 +13,11 @@ export default function Content() {
           voluptate repellendus earum magnam reiciendis ipsum animi non a neque
           et sint nulla quae, eum, fugit hic sunt pariatur ea? Distinctio.
         </Typography>
-        <Button variant="contained" color="primary">
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={() => document.body.setAttribute("dir", "rtl")}
+        >
           FLIP
         </Button>
       </Container>
